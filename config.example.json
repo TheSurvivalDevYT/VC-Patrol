@@ -1,0 +1,16 @@
+{
+  "logChannelId": "1413623155318198353",
+  "clipSeconds": 5,
+  "engine": "whisper",
+  "whisper": {
+    "model": "gpt-4o-transcribe",
+    "endpoint": "https://api.openai.com/v1/audio/transcriptions"
+  },
+  "bots": [
+    {
+      "token": "BOT_TOKEN_1",
+      "guildId": "YOUR_GUILD_ID",
+      "voiceChannelId": "VC_ID_1"
+    }
+  ]
+}
